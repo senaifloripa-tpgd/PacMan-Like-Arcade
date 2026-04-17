@@ -1,34 +1,43 @@
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 public class PlayerOneMove : MonoBehaviour
 {
     // Variables to horizontal and vertical input
-    private float horizontalInput;
-    private float verticalInput;
-
+     public InputAction controlesJogador;
+     Vector2 direcaoMovimento;
     // Variable to player speed
-    private float moveSpeed = 3f;
+     
+     public float velocidadeJogador = 5f;
 
     // Variable to player physics component (Rigidbody2D)
-    private Rigidbody2D playerPhysics;
+     public Rigidbody2D fisicaJogador;
+
+    private void OnEnable()
+    {
+        controlesJogador.Enable();
+
+    }
+
+    private void OnDisable()
+    {
+
+         controlesJogador.Disable();
+
+    }
 
     void Start()
     {        
 
-        // Component reference
-        playerPhysics = GetComponent<Rigidbody2D>();
+      
 
     }
 
     void Update()
     {
 
-        // Axis inputs to variables
-        horizontalInput = Input.GetAxis("HorizontalP1");
-        verticalInput = Input.GetAxis("VerticalP1");
+          direcaoMovimento = controlesJogador.ReadValue<Vector2>();
+          fisicaJogador.linearVelocity = new Vector2(direcaoMovimento.x * velocidadeJogador, direcaoMovimento.y * velocidadeJogador);
 
-        // Calculate inputs x speed in new vector2 and use it to set linear velocity of player physics 
-        playerPhysics.linearVelocity = new Vector2(horizontalInput * moveSpeed, verticalInput * moveSpeed);
 
     }
     
