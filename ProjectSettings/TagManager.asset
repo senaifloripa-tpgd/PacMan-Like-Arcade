@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Fruit
+<<<<<<< Updated upstream
   - Ghost
+=======
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
