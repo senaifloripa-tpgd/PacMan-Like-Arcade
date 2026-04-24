@@ -358,7 +358,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileSpriteIndex: 4294967295
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -368,9 +368,7 @@ Tilemap:
   m_TileAssetArray:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: da3626a6bcac7864f9306c95f1e97bdc, type: 2}
-  m_TileSpriteArray:
-  - m_RefCount: 1
-    m_Data: {fileID: -2342292860744577976, guid: 391d29d85054c8644a73250c09cd9e7c, type: 3}
+  m_TileSpriteArray: []
   m_TileMatrixArray:
   - m_RefCount: 1
     m_Data:
@@ -1433,7 +1431,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDamping: 0
   m_AngularDamping: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1464,7 +1462,47 @@ MonoBehaviour:
     m_Id: 0dc02647-6755-4728-aa48-90c3c1efddce
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: 61047ef8-7330-4d30-bd80-65677a203841
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador
+      m_Flags: 4
+    - m_Name: up
+      m_Id: e16d9a4d-1e84-425b-871a-c2382b2b68c1
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador
+      m_Flags: 8
+    - m_Name: down
+      m_Id: a9264d33-c41e-4226-accb-894e90610791
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador
+      m_Flags: 8
+    - m_Name: left
+      m_Id: 06f88cc5-d8af-4580-92c0-df569ea25a8a
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador
+      m_Flags: 8
+    - m_Name: right
+      m_Id: 6f2c6b39-d485-439b-b917-dd1b7ce46f5b
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador
+      m_Flags: 8
     m_Flags: 0
   velocidadeJogador: 5
   fisicaJogador: {fileID: 1445916864}
