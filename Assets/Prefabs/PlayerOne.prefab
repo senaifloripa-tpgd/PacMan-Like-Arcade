@@ -179,3 +179,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f42e9d1919f4cf540affccab7c9256e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerOneMove
+  controlesJogador:
+    m_Name: Controles Jogador
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 0c7851e6-556d-4b22-8e69-86a4f32b205e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  velocidadeJogador: 5
+  fisicaJogador: {fileID: 0}
