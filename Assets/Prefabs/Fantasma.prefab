@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2239350397057389442}
   - component: {fileID: 5814162975355898173}
+  - component: {fileID: 7685644280541732889}
+  - component: {fileID: 3134355895899713068}
   m_Layer: 0
   m_Name: Fantasma
   m_TagString: Untagged
@@ -91,3 +93,93 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &7685644280541732889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121945742238838960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c1451fa5bcf7d459b9537909a8648c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerTwo
+  controlesJogador2:
+    m_Name: Controles Jogador 2
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 904eef8a-aa97-46aa-8c23-c0a4c8dae607
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 2D Vector
+      m_Id: e5fa2ea0-6ab5-474a-9cce-e96f110bde89
+      m_Path: 2DVector
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador 2
+      m_Flags: 4
+    - m_Name: up
+      m_Id: dcdf5b79-6def-4307-8cd3-e9b519bc27f1
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador 2
+      m_Flags: 8
+    - m_Name: down
+      m_Id: a0b00ab0-5495-449f-abcb-7826b3923ee1
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador 2
+      m_Flags: 8
+    - m_Name: left
+      m_Id: adcb13aa-7aa5-4211-93f0-2e5d2b6b78ab
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador 2
+      m_Flags: 8
+    - m_Name: right
+      m_Id: b2fe9556-1abc-408c-bbbc-c612e6bf08cc
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Controles Jogador 2
+      m_Flags: 8
+    m_Flags: 0
+  velocidadeJogador: 5
+  fisicaJogador: {fileID: 3134355895899713068}
+--- !u!50 &3134355895899713068
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121945742238838960}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
