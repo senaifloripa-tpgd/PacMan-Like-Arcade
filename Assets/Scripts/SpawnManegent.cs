@@ -19,19 +19,19 @@ public class SpawnManagement : MonoBehaviour
     public GameObject fruitPrefab;
     
     // Variável para guardar a posição do jogador
-    private int playerPos;
+   
     
     // Contador para saber quantos fantasmas foram colocados
-    private int ghostCount = 0;
+    
     
     // Variável para escolher um lugar aleatório para a fruta
     private int randFruit;
     
     // Sinal que indica se a fruta já foi colocada em algum lugar
-    private bool repeatedFruit;
+    
     
     // Lista que guarda as posições das frutas
-    public int[] fruitPos = new int[5];
+   
 
     // Este método é chamado quando o jogo começa
     void Start()
