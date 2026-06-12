@@ -41,12 +41,11 @@ public class PlayerOneMove : MonoBehaviour
 
     }
     
-    void OnCollisionEnter2D(Collision2D col){
+   void OnTriggerEnter2D(Collider2D col){
 
-        // Check if the object that collided has the tag "ghost" 
-        if(col.gameObject.CompareTag("Ghost")){
+        if(col.CompareTag("Ghost")){
 
-            // Destroy player object
+           
             Destroy(gameObject);
 
         }

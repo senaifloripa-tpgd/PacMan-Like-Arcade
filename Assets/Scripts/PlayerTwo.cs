@@ -25,13 +25,5 @@ public class PlayerTwo : MonoBehaviour
         fisicaJogador.linearVelocity = new Vector2(direcaoMovimento.x * velocidadeJogador, direcaoMovimento.y * velocidadeJogador);
     }
     
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        // Check if the object that collided has the tag "ghost" 
-        if(col.gameObject.CompareTag("Pacman"))
-        {
-            // Destroy player object
-            Destroy(gameObject);
-        }
-    }
+    
 }

@@ -7,9 +7,9 @@ public class FruitsCollect : MonoBehaviour
 
         if(col.CompareTag("Player")){
 
-            AudioManager.instanceSound.PlayFruitSound();
-            UIManager.playerScore = UIManager.playerScore + 50;
-            UIManager.playerFruits++;
+            // AudioManager.instanceSound.PlayFruitSound();
+            // UIManager.playerScore = UIManager.playerScore + 50;
+            // UIManager.playerFruits++;
             Destroy(gameObject);
 
         }

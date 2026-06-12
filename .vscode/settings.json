@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "PacMan-Like-Arcade.slnx"
+    "dotnet.defaultSolution": "PacMan-Like-Arcade-2026-06-12-15-11-21.slnx"
 }
