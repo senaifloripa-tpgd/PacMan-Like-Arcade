@@ -5,8 +5,10 @@ public class UIManager : MonoBehaviour
 {
 
     public static int gameTimer = 60;
-    public static int playerFruits = 0;
-    public static int playerScore = 0;
+    public int playerFruits = 0;
+    public int playerScore = 0;
+    public int playerFrutona = 0;
+    public TextMeshProUGUI FrutonaText;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI fruitsText;
     public TextMeshProUGUI scoreText;
@@ -23,6 +25,7 @@ public class UIManager : MonoBehaviour
 
         fruitsText.text = "FRUITS: " + playerFruits.ToString();
         scoreText.text = "SCORE: " + playerScore.ToString();
+        FrutonaText.text = "FRUTONA: " + playerFrutona.ToString();
         
     }
 
@@ -44,4 +47,13 @@ public class UIManager : MonoBehaviour
 
     }
 
+    public int AddFrutas(int qtd){
+        playerFrutona += qtd;
+        return playerFrutona;
+    }
+
+
+    public void AddFrutinha(){
+        playerFruits++;
+    }
 }

@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8937516092564824624}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: 0.00071910216, w: 0.99999976}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0007155892, w: 0.99999976}
   m_LocalPosition: {x: -10.52, y: 3.49, z: 0}
   m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
@@ -141,3 +141,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 394eba060ef7e234cb034f47c5273d27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PointsCollect
+  playerFruits: {fileID: 0}

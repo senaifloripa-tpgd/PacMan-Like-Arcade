@@ -26,7 +26,7 @@ public class PlayerOneMove : MonoBehaviour
     //      controlesJogador.Disable();
 
     // }
-     public float moveSpeed = 5f;
+    public float moveSpeed = 5f;
 
     public Rigidbody2D rb;
     private Vector2 movement;
@@ -49,14 +49,11 @@ public class PlayerOneMove : MonoBehaviour
         rb.linearVelocity = movement * moveSpeed;
     }
 
-     void OnTriggerEnter2D(Collider2D col){
+     void OnCollisionEnter2D(Collision2D col){
 
         if(col.gameObject.CompareTag("Ghost")){
 
             Destroy(gameObject);
-
         }
-
     }
-
 }

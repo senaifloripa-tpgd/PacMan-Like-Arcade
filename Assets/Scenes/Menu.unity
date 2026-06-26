@@ -554,6 +554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bff1c5a2a87a7640aabcb548539c24a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::trocacena
+  Cena: 1
 --- !u!4 &1781692027
 Transform:
   m_ObjectHideFlags: 0
