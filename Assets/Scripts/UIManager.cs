@@ -3,10 +3,13 @@ using System.Collections;
 using TMPro;
 public class UIManager : MonoBehaviour
 {
-
-    public static int gameTimer = 60;
-    public static int playerFruits = 0;
-    public static int playerScore = 0;
+    public GameObject canva_derrota_tempo;
+    public GameObject canva_vitoria;
+    public int gameTimer = 60;
+    public int playerFruits = 0;
+    public int playerScore = 0;
+    public int playerFrutona = 0;
+    public TextMeshProUGUI FrutonaText;
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI fruitsText;
     public TextMeshProUGUI scoreText;
@@ -15,6 +18,7 @@ public class UIManager : MonoBehaviour
     {
 
         StartCoroutine(TimerCount());
+
         
     }
 
@@ -23,7 +27,12 @@ public class UIManager : MonoBehaviour
 
         fruitsText.text = "FRUITS: " + playerFruits.ToString();
         scoreText.text = "SCORE: " + playerScore.ToString();
+        FrutonaText.text = "FRUTONA: " + playerFrutona.ToString();
         
+        if(playerFrutona == 3){
+
+            canva_vitoria.SetActive(true);
+        }
     }
 
     IEnumerator TimerCount(){
@@ -38,10 +47,25 @@ public class UIManager : MonoBehaviour
 
                 timerText.color = new Color32(238, 72, 72, 255);
 
+                if(gameTimer == 0){
+
+                    canva_derrota_tempo.SetActive(true);
+                }
             }
 
         }
 
     }
 
+
+
+    public int AddFrutas(int qtd){
+        playerFrutona += qtd;
+        return playerFrutona;
+    }
+
+
+    public void AddFrutinha(){
+        playerFruits++;
+    }   
 }
