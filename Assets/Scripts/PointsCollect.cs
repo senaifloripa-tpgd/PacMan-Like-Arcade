@@ -4,7 +4,8 @@ public class PointsCollect : MonoBehaviour
  {
     public UIManager playerFruits;
     
-    void OnTriggerEnter2D(Collider2D col){
+    void OnTriggerEnter2D(Collider2D col)
+    {
 
         if(col.CompareTag("Player")){
             
@@ -16,9 +17,6 @@ public class PointsCollect : MonoBehaviour
             {
                 Debug.LogError("ta errrado ao");
             }
-            // AudioManager.instanceSound.PlayFruitSound();
-            // UIManager.playerScore = UIManager.playerScore + 50;
-            // UIManager.playerFruits++;
             Destroy(gameObject);
         }
 

@@ -16,10 +16,8 @@ public class PlayerTwo : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
-
-        movement.Normalize(); // evita movimento mais rápido na diagonal
+        movement.Normalize(); 
     }
-
     void FixedUpdate()
     {
         rb.linearVelocity = movement * moveSpeed;
