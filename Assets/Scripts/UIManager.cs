@@ -3,8 +3,7 @@ using System.Collections;
 using TMPro;
 public class UIManager : MonoBehaviour
 {
-    public GameObject canva_derrota_tempo;
-    public GameObject canva_vitoria;
+
     public int gameTimer = 60;
     public int playerFruits = 0;
     public int playerScore = 0;
@@ -18,7 +17,6 @@ public class UIManager : MonoBehaviour
     {
 
         StartCoroutine(TimerCount());
-
         
     }
 
@@ -29,10 +27,6 @@ public class UIManager : MonoBehaviour
         scoreText.text = "SCORE: " + playerScore.ToString();
         FrutonaText.text = "FRUTONA: " + playerFrutona.ToString();
         
-        if(playerFrutona == 3){
-
-            canva_vitoria.SetActive(true);
-        }
     }
 
     IEnumerator TimerCount(){
@@ -47,12 +41,7 @@ public class UIManager : MonoBehaviour
 
                 timerText.color = new Color32(238, 72, 72, 255);
 
-                if(gameTimer == 0){
-
-                    canva_derrota_tempo.SetActive(true);
-                }
             }
-
         }
 
     }

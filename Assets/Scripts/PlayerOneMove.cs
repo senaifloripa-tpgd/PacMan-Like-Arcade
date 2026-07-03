@@ -4,29 +4,8 @@ using System.Collections;
 
 public class PlayerOneMove : MonoBehaviour
 {
-    // // Variables to horizontal and vertical input
-    //  public InputAction controlesJogador;
-    //  Vector2 direcaoMovimento;
-    // // Variable to player speed
-     
-    //  public float velocidadeJogador = 5f;
-
-    // // Variable to player physics component (Rigidbody2D)
-    //  public Rigidbody2D fisicaJogador;
-
-    // // private void OnEnable()
-    // // {
-    // //     controlesJogador.Enable();
-
-    // // }
-
-    // // private void OnDisable()
-    // {
-
-    //      controlesJogador.Disable();
-
-    // }
     public float moveSpeed = 5f;
+    public int Vida = 1;
 
     public Rigidbody2D rb;
     private Vector2 movement;
@@ -52,8 +31,15 @@ public class PlayerOneMove : MonoBehaviour
      void OnCollisionEnter2D(Collision2D col){
 
         if(col.gameObject.CompareTag("Ghost")){
+            
+            Vida -= 1;
+            
+                if(Vida <= 0){
 
-            Destroy(gameObject);
+                    Debug.Log("erro");
+                    gameObject.SetActive(false);
+                    
+                }
         }
     }
 }
