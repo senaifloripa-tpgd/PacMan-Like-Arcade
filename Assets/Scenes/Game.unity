@@ -2200,6 +2200,7 @@ MonoBehaviour:
   canva_derrota_tempo: {fileID: 102302446}
   canva_vitoria: {fileID: 1302243790}
   UI: {fileID: 582278343}
+  CanvaMorte: {fileID: 1210059814}
   player: {fileID: 6946447617984627127, guid: 34726900c22cf7149a49c18d8a248578, type: 3}
   canva_morte: {fileID: 1210059814}
 --- !u!1 &730109042

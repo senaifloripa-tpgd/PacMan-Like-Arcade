@@ -35,7 +35,7 @@ public class PlayerOneMove : MonoBehaviour
         rb.linearVelocity = movement * moveSpeed;
     }
 
-     void OnCollisionEnter2D(Collision2D col){
+    void OnCollisionEnter2D(Collision2D col){
 
         if(col.gameObject.CompareTag("Ghost")){
             
@@ -43,7 +43,6 @@ public class PlayerOneMove : MonoBehaviour
             
                 if(Vida <= 0){
 
-                    Debug.Log("erro");
                     gameObject.SetActive(false);
                     
                 }
