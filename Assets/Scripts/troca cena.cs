@@ -12,9 +12,10 @@ public class trocacena : MonoBehaviour
 
     public void TrocaCena()
     {
-          SceneManager.LoadScene(Cena);
+        SceneManager.LoadScene(Cena);
     }
 
+    
     // Update is called once per frame
     void Update()
     {

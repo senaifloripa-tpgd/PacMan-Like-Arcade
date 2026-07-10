@@ -215,6 +215,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 40046547}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: descongela
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &40046545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -581,6 +593,18 @@ MonoBehaviour:
       - m_Target: {fileID: 156476045}
         m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
         m_MethodName: TrocaCena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 156476045}
+        m_TargetAssemblyTypeName: trocacena, Assembly-CSharp
+        m_MethodName: descongela
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2118,7 +2142,6 @@ GameObject:
   - component: {fileID: 582278344}
   - component: {fileID: 582278343}
   - component: {fileID: 582278345}
-  - component: {fileID: 582278346}
   m_Layer: 0
   m_Name: Timer
   m_TagString: Untagged
@@ -2175,26 +2198,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   canva_derrota_tempo: {fileID: 102302446}
-  Vida: {fileID: 0}
   canva_vitoria: {fileID: 1302243790}
   UI: {fileID: 582278343}
   player: {fileID: 6946447617984627127, guid: 34726900c22cf7149a49c18d8a248578, type: 3}
   canva_morte: {fileID: 1210059814}
---- !u!114 &582278346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 582278342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f42e9d1919f4cf540affccab7c9256e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerOneMove
-  moveSpeed: 5
-  Vida: 1
-  rb: {fileID: 0}
 --- !u!1 &730109042
 GameObject:
   m_ObjectHideFlags: 0

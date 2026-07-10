@@ -2,10 +2,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
-    public static bool isGameOver = false;
     public GameObject canva_derrota_tempo;
-    public PlayerOneMove Vida;
+    public static bool Gameover = false;
+    // public PlayerOneMove Vida;
     public GameObject canva_vitoria;
     public UIManager UI;
     public PlayerOneMove player;
@@ -14,7 +13,7 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
@@ -22,16 +21,19 @@ public class GameManager : MonoBehaviour
     {
         if(UI.playerFrutona >= 3){
 
+            Gameover = true;
             canva_vitoria.SetActive(true);
         }
 
         if(player.Vida <= 0){
 
-            Debug.Log("aqui");
+            Gameover = true;
             canva_morte.SetActive(true);
         }
+
         if(UI.gameTimer <= 0){
 
+            Gameover = true;
             canva_derrota_tempo.SetActive(true);
         }
     }
