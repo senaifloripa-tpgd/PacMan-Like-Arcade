@@ -9,17 +9,23 @@ public class PlayerTwo : MonoBehaviour
 
     void Start()
     {
+        GameManager.Gameover = false;
         rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        if(!GameManager.Gameover){
 
-        movement.Normalize(); // evita movimento mais rápido na diagonal
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
+
+            movement.Normalize(); // evita movimento mais rápido na diagonal
+        }
+        else{
+            moveSpeed = 0;
+        }
     }
-
     void FixedUpdate()
     {
         rb.linearVelocity = movement * moveSpeed;
