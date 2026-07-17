@@ -6,7 +6,6 @@ public class GameManager : MonoBehaviour
     public static bool Gameover = false;
     public GameObject canva_vitoria;
     public UIManager UI;
-    public GameObject CanvaMorte;
     public PlayerOneMove player;
     public GameObject canva_morte;
 
@@ -25,20 +24,10 @@ public class GameManager : MonoBehaviour
             canva_vitoria.SetActive(true);
         }
 
-        if(player.Vida <= 0){
-
-            Gameover = true;
-            canva_morte.SetActive(true);
-        }
-
         if(UI.gameTimer <= 0){
 
             Gameover = true;
             canva_derrota_tempo.SetActive(true);
-        }
-        if(player.Vida <= 0){
-
-            CanvaMorte.SetActive(true);
         }
     }
     
