@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4301764651137904190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7889782301927972823}
+  - component: {fileID: 651624457475051068}
+  m_Layer: 0
+  m_Name: UImanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7889782301927972823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301764651137904190}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.37034, y: 0.83053, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &651624457475051068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4301764651137904190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2683c5d6975adb949acc89c00b730ccf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIManager
+  canva_derrota_tempo: {fileID: 1606914445998060791, guid: c3423aa43da34aa4fb397a888fc2bc63, type: 3}
+  canva_vitoria: {fileID: 1606914445998060791, guid: c3423aa43da34aa4fb397a888fc2bc63, type: 3}
+  gameTimer: 60
+  playerFruits: 0
+  playerScore: 0
+  playerFrutona: 0
+  FrutonaText: {fileID: 855371914301399259, guid: 5f743cbf6f908be4d8491644dbb23865, type: 3}
+  timerText: {fileID: 3013499466705774287, guid: b7be096ca3d4e4a458099628a830e4dd, type: 3}
+  fruitsText: {fileID: 8721509932456463050, guid: ff48e66662cb5c14c9fc0e27b09d3ef2, type: 3}
+  scoreText: {fileID: 3628683819756716784, guid: cb393a162c557ca4487cc8d89b726b42, type: 3}

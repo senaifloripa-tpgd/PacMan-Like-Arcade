@@ -14,17 +14,7 @@ public class PlayerTwo : MonoBehaviour
     }
 
     void Update()
-    {
-        if(!GameManager.Gameover){
-
-            movement.x = Input.GetAxisRaw("Horizontal");
-            movement.y = Input.GetAxisRaw("Vertical");
-
-            movement.Normalize(); // evita movimento mais rápido na diagonal
-        }
-        else{
-            moveSpeed = 0;
-        }
+    {}
     }
     void FixedUpdate()
     {

@@ -21,9 +21,6 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        fruitsText.text = "FRUITS: " + playerFruits.ToString();
-        scoreText.text = "SCORE: " + playerScore.ToString();
-        FrutonaText.text = "FRUTONA: " + playerFrutona.ToString();
     }
 
     IEnumerator TimerCount()
@@ -41,15 +38,22 @@ public class UIManager : MonoBehaviour
     }
 }
 
-
-
-    public int AddFrutas(int qtd){
+    public int AddFrutas(int qtd)
+    {
         playerFrutona += qtd;
+        
+         
+        if (playerFrutona >= 3)
+        {   
+            Debug.Log("Canva erro");
+            canva_vitoria.SetActive(true); 
+        }
         return playerFrutona;
     }
 
 
-    public void AddFrutinha(){
+    public void AddFrutinha()
+    {
         playerFruits++;
     }   
 }

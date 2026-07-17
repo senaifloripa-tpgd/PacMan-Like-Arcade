@@ -1,11 +1,11 @@
 using UnityEngine;
-// using UnityEngine.InputSystem;
 using System.Collections;
 
 public class PlayerOneMove : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public int Vida = 1;
+
+
 
     public Rigidbody2D rb;
     private Vector2 movement;
@@ -18,16 +18,7 @@ public class PlayerOneMove : MonoBehaviour
 
     void Update()
     {
-        if(!GameManager.Gameover){
 
-            movement.x = Input.GetAxisRaw("Horizontal1");
-            movement.y = Input.GetAxisRaw("Vertical1");
-
-            movement.Normalize(); // evita movimento mais rápido na diagonal
-        }
-        else{
-            moveSpeed = 0;
-        }
     }
 
     void FixedUpdate()
