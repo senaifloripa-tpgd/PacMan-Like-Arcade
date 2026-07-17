@@ -180,4 +180,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerOneMove
   moveSpeed: 5
+  Vida: 1
   rb: {fileID: 1080649093647663946}

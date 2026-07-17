@@ -6,8 +6,6 @@ public class trocacena : MonoBehaviour
     public int Cena;
     public void TrocaCena()
     {
-          SceneManager.LoadScene(Cena);
+        SceneManager.LoadScene(Cena);
     }
-
-
-}
+    

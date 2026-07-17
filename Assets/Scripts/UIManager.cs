@@ -3,8 +3,7 @@ using System.Collections;
 using TMPro;
 public class UIManager : MonoBehaviour
 {
-    public GameObject canva_derrota_tempo;
-    public GameObject canva_vitoria;
+
     public int gameTimer = 60;
     public int playerFruits = 0;
     public int playerScore = 0;
@@ -16,41 +15,28 @@ public class UIManager : MonoBehaviour
 
     void Start()
     {
-
+        GameManager.Gameover = false;
         StartCoroutine(TimerCount());
-
-        
     }
 
     void Update()
     {
-
-        fruitsText.text = "BOLHAS: " + playerFruits.ToString();
-        scoreText.text = "SCORE: " + playerScore.ToString();
-        FrutonaText.text = "PEIXE: " + playerFrutona.ToString();
     }
 
-    IEnumerator TimerCount(){
+    IEnumerator TimerCount()
+{
+    while (gameTimer >= 0 && !GameManager.Gameover)
+    {
+        timerText.text = "TIME: " + gameTimer.ToString();
+        yield return new WaitForSeconds(1f);
+        gameTimer--;
 
-        while (gameTimer >= 0)
+        if (gameTimer <= 10)
         {
-            timerText.text = "TIME: " + gameTimer.ToString();
-            yield return new WaitForSeconds(1f);
-            gameTimer--;
-
-            if(gameTimer <= 10){
-
-                timerText.color = new Color32(238, 72, 72, 255);
-
-                if(gameTimer == 0){
-
-                    canva_derrota_tempo.SetActive(true);
-                }
-            }
-
+            timerText.color = new Color32(238, 72, 72, 255);
         }
-
     }
+}
 
     public int AddFrutas(int qtd)
     {
