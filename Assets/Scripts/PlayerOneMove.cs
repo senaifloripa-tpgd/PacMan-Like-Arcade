@@ -12,6 +12,7 @@ public class PlayerOneMove : MonoBehaviour
 
     void Start()
     {
+        canvas = FindFirstObjectByType<GameManager>();
         GameManager.Gameover = false;
         rb = GetComponent<Rigidbody2D>();
     }
