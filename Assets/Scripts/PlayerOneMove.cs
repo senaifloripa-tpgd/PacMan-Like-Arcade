@@ -4,9 +4,8 @@ using System.Collections;
 public class PlayerOneMove : MonoBehaviour
 {
     public float moveSpeed = 5f;
-
-
-
+    public int Vida = 1;
+    public GameManager canvas;
     public Rigidbody2D rb;
     private Vector2 movement;
 
@@ -18,8 +17,14 @@ public class PlayerOneMove : MonoBehaviour
 
     void Update()
     {
+        movement.x = Input.GetAxisRaw("Horizontal1");
+        movement.y = Input.GetAxisRaw("Vertical1");
 
+        movement.Normalize(); // evita movimento mais rápido na diagonal
     }
+    // else{
+    //     moveSpeed = 0;
+    // }
 
     void FixedUpdate()
     {
@@ -31,12 +36,13 @@ public class PlayerOneMove : MonoBehaviour
         if(col.gameObject.CompareTag("Ghost")){
             
             Vida -= 1;
-            
-                if(Vida <= 0){
 
-                    gameObject.SetActive(false);
-                    
-                }
+            if(Vida <= 0){
+
+                GameManager.Gameover = true;
+                Debug.Log("cavalo");
+                canvas.canva_morte.SetActive(true);
+        }
         }
     }
 }
