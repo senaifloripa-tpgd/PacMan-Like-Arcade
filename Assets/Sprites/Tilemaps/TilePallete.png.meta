@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7066a13f53aa73e46aabe9057ab96e6b
+guid: 85099abdd3ff37246b9de893b3a97eb7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 305239758040496383
-    second: Tartle_Idle_0
+      213: 1300918834757113361
+    second: TilePallete_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tartle_Idle_0
+      name: TilePallete_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 80
-        height: 80
+        y: 320
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff8745551fd6c3400800000000000000
-      internalID: 305239758040496383
+      spriteID: 1161053a9cacd0210800000000000000
+      internalID: 1300918834757113361
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tartle_Idle_1
+      name: TilePallete_1
       rect:
         serializedVersion: 2
-        x: 80
-        y: 0
-        width: 80
-        height: 80
+        x: 160
+        y: 320
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +163,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f4b55ca6874b24c962c13d035d4c4a
-      internalID: 294432245
+      spriteID: 47e7d5ae9bc8487418521de6ea0a0a40
+      internalID: -1129942538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tartle_Idle_2
+      name: TilePallete_2
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca217486a4049949a886a873526d9b3
+      internalID: 976682695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePallete_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97f2fa80a0911841a1a02bec6e37f74
+      internalID: -193930554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePallete_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6820177ca9ea394faaac313d28a0e87
+      internalID: 117021521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePallete_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d7493e1f5dab1a4e942b91fe38d1dbc
+      internalID: 1616518215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TilePallete_6
       rect:
         serializedVersion: 2
         x: 160
         y: 0
-        width: 80
-        height: 80
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,42 +273,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 287746215dd0b56469b910bbbab2f012
-      internalID: -1896243398
+      spriteID: 4d3b62cb882da4e4c9cf839624cc24ac
+      internalID: 1851822338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tartle_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 0
-        width: 80
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e5dd52085296f4f4aab5c35dc7402326
-      internalID: -941630411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tartle_Idle_4
+      name: TilePallete_7
       rect:
         serializedVersion: 2
         x: 320
         y: 0
-        width: 80
-        height: 80
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,30 +295,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfbd05cd19a1fb749ba424bc3b3d0bb4
-      internalID: 1367107635
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tartle_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 0
-        width: 80
-        height: 80
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac36c7fb33e35604884cfafb5e8c0e51
-      internalID: 1323597140
+      spriteID: 881e87e945df697459a7352869552872
+      internalID: 1025922131
       vertices: []
       indices: 
       edges: []
@@ -261,7 +305,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 211b06797aaf5ad4ead0e4e243ed92a1
     internalID: 0
     vertices: []
     indices: 
@@ -271,14 +315,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":160.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Tartle_Idle_0: 305239758040496383
-      Tartle_Idle_1: 294432245
-      Tartle_Idle_2: -1896243398
-      Tartle_Idle_3: -941630411
-      Tartle_Idle_4: 1367107635
-      Tartle_Idle_5: 1323597140
+      TilePallete_0: 1300918834757113361
+      TilePallete_1: -1129942538
+      TilePallete_2: 976682695
+      TilePallete_3: -193930554
+      TilePallete_4: 117021521
+      TilePallete_5: 1616518215
+      TilePallete_6: 1851822338
+      TilePallete_7: 1025922131
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
