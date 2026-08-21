@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3fb90922fdba6c141b4b3616a7da6432
+guid: bbf270ef599fd0141aab21fc08422e0a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6317698306382891007
-    second: Fish_Animation_0
+      213: 2262238992434647005
+    second: Fish_Animation 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fish_Animation_0
+      name: Fish_Animation 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,14 +141,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 108f5f9ecd60358a0800000000000000
-      internalID: -6317698306382891007
+      spriteID: ddfca15b066156f10800000000000000
+      internalID: 2262238992434647005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_1
+      name: Fish_Animation 1_1
       rect:
         serializedVersion: 2
         x: 80
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b033010941866042a51fc663b404b4f
-      internalID: -1894938724
+      spriteID: ac0801b66aae011428261b5f481cb94f
+      internalID: -1952279142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_2
+      name: Fish_Animation 1_2
       rect:
         serializedVersion: 2
         x: 160
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 865302071c8763c418c7dd8f991c5846
-      internalID: 616054269
+      spriteID: ed4b3ea9519f23d4e8adf71ceaeee363
+      internalID: 1187830219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_3
+      name: Fish_Animation 1_3
       rect:
         serializedVersion: 2
         x: 240
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07c0aaf9f320f4e4783add799fc43028
-      internalID: -711761779
+      spriteID: f077eec005fd5fd4ea637a19a016978c
+      internalID: 1478455695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_4
+      name: Fish_Animation 1_4
       rect:
         serializedVersion: 2
         x: 320
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 151ea26301e6960459f90a18a15f6581
-      internalID: -831205610
+      spriteID: cf6b415674f78f64c94570e501a9d2bc
+      internalID: -1284100761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_5
+      name: Fish_Animation 1_5
       rect:
         serializedVersion: 2
         x: 400
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5edd3043cb54c747854b859a555688f
-      internalID: -285773205
+      spriteID: 18384efb280820f4092b6911fab37c3c
+      internalID: -2046578408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_6
+      name: Fish_Animation 1_6
       rect:
         serializedVersion: 2
         x: 480
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42625c491553e31479ec8f1e2850cf52
-      internalID: -181379492
+      spriteID: a06f0f6a342e9be4ea773129c897c079
+      internalID: 983547019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_7
+      name: Fish_Animation 1_7
       rect:
         serializedVersion: 2
         x: 560
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea5035b10dabcb84096077c43550cdff
-      internalID: -320159211
+      spriteID: 917118d6e719b4b47a83ed81a2741fbc
+      internalID: 907201106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fish_Animation_8
+      name: Fish_Animation 1_8
       rect:
         serializedVersion: 2
         x: 640
@@ -317,8 +317,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59dbb7dbd79e9b14ea3de317e6ba8959
-      internalID: 56722372
+      spriteID: cb49918aa021aa04f909bc97ca792923
+      internalID: -407840207
       vertices: []
       indices: 
       edges: []
@@ -327,7 +327,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5b6f51622f66fc94991407f709826221
+    spriteID: 80ac35ab52c245f4999ce326decbd862
     internalID: 0
     vertices: []
     indices: 
@@ -339,15 +339,15 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":9.0,"y":1.0},"gridSpriteSize":{"x":80.0,"y":80.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Fish_Animation_0: -6317698306382891007
-      Fish_Animation_1: -1894938724
-      Fish_Animation_2: 616054269
-      Fish_Animation_3: -711761779
-      Fish_Animation_4: -831205610
-      Fish_Animation_5: -285773205
-      Fish_Animation_6: -181379492
-      Fish_Animation_7: -320159211
-      Fish_Animation_8: 56722372
+      Fish_Animation 1_0: 2262238992434647005
+      Fish_Animation 1_1: -1952279142
+      Fish_Animation 1_2: 1187830219
+      Fish_Animation 1_3: 1478455695
+      Fish_Animation 1_4: -1284100761
+      Fish_Animation 1_5: -2046578408
+      Fish_Animation 1_6: 983547019
+      Fish_Animation 1_7: 907201106
+      Fish_Animation 1_8: -407840207
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
