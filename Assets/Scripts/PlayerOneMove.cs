@@ -46,7 +46,6 @@ public class PlayerOneMove : MonoBehaviour
             if(Vida <= 0){
 
                 GameManager.Gameover = true;
-                Debug.Log("cavalo");
                 canvas.canva_morte.SetActive(true);
         }
         }
